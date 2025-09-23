@@ -128,9 +128,9 @@ body {
 }
 
 .results-carousel video {
-  max-height: 100%;
-  width: auto;
-  object-fit: contain;
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
   /* margin: 0;
   display: block;
   max-width: 100%; 
