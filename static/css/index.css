@@ -125,11 +125,11 @@ body {
 
 .results-carousel video {
   margin: 0;
-  display: block;
+  /* display: block;
   max-width: 100%; 
   height: auto;  
   border-radius: 10px;
-  object-fit: contain;
+  object-fit: contain; */
 }
 
 
