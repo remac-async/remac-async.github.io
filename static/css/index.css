@@ -115,21 +115,28 @@ body {
 }
 
 .results-carousel .item {
-  margin: 5px;
+  /* margin: 5px;
   overflow: hidden;
   border: 1px solid #bbb;
   border-radius: 10px;
   padding: 0;
-  font-size: 0;
+  font-size: 0; */
+  height: 300px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .results-carousel video {
-  margin: 0;
-  display: block;
-  max-width: 100%;   /* never overflow parent */
-  height: auto;      /* keep aspect ratio */
-  border-radius: 10px; /* optional: match container rounding */
+  max-height: 100%;
+  width: auto;
   object-fit: contain;
+  /* margin: 0;
+  display: block;
+  max-width: 100%; 
+  height: auto;  
+  border-radius: 10px;
+  object-fit: contain; */
 }
 
 
