@@ -76,12 +76,12 @@
             While this approach achieves real-time responsiveness, naive integration often results in execution failures.
           </p>
           <p>
-            Previous methods attributed this failure to inter-chunk discontinuity and developed test-time algorithms to smooth chunk boundaries. 
-            In contrast, we identify another critical yet overlooked factor: intra-chunk inconsistency, where the robot’s perception and the 
+            Previous methods attributed this failure to <strong>inter-chunk discontinuity</strong> and developed test-time algorithms to smooth chunk boundaries. 
+            In contrast, we identify another critical yet overlooked factor: <strong>intra-chunk inconsistency</strong>, where the robot’s perception and the 
             executed actions become misaligned.
           </p>
           <p>
-            To address this, we propose REMAC, which learns corrective adjustments on the pretrained policy through masked action chunking, 
+            To address this, we propose <strong>REMAC</strong>, which learns corrective adjustments on the pretrained policy through masked action chunking, 
             enabling the learned policy to remain robust to behavioral deviations caused by intra-chunk mismatches.
             In addition, we adopt a prefix-preserving denoising process during inference to reinforce inter-chunk continuity.
             Our method introduces no additional inference latency while yielding more reliable policies for asynchronous inference.
@@ -117,7 +117,10 @@
   <div class="hero-body">
     <div class="container">
       <div class="video-grid">
-        <h3 class="title is-3">Performance on grasp-and-place tasks</h3>
+        <h3 class="title is-3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          Performance on grasp-and-place tasks</h3>
         <p class="video-desc">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
